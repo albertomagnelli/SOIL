@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 
-include_directories(inc)
+include_directories(includes)
 
 ADD_LIBRARY( soil STATIC
   src/image_helper.c
